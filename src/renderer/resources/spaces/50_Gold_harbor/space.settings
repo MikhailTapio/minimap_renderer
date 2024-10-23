@@ -7,7 +7,6 @@
 		<maxY>	8	</maxY>
 	</bounds>
 	<terrain>
-		<version>	200	</version>
 		<heightMapSize>	128	</heightMapSize>
 		<normalMapSize>	128	</normalMapSize>
 	</terrain>

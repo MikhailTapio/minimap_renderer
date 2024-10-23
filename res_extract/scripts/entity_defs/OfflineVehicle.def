@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<root>
+    <Properties>
+        <isPlayer>
+            <Type>BOOL</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </isPlayer>
+        <shipConfig>
+            <Type>SHIP_CONFIG</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </shipConfig>
+    </Properties>
+</root>
+

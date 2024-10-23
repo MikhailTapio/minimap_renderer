@@ -1,0 +1,19 @@
+<space.settings>
+	<chunkSize>	100.0000	</chunkSize>
+	<bounds>
+		<minX>	-11	</minX>
+		<maxX>	10	</maxX>
+		<minY>	-11	</minY>
+		<maxY>	10	</maxY>
+	</bounds>
+	<terrain>
+		<heightMapSize>	128	</heightMapSize>
+		<normalMapSize>	128	</normalMapSize>
+	</terrain>
+	<UnprocessedData>
+		<shadows>	true	</shadows>
+		<heightMap>	true	</heightMap>
+		<miniMap>	true	</miniMap>
+		<saved>	false	</saved>
+	</UnprocessedData>
+</space.settings>

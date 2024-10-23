@@ -1,11 +1,6 @@
 <space.settings>
-	<bounds
-			minX="-9"
-			maxX="8"
-			minY="-9"
-			maxY="8" />
+	<bounds maxX="8" maxY="8" minX="-9" minY="-9" />
 	<terrain>
-		<version>	200	</version>
 		<heightMapSize>	256	</heightMapSize>
 		<normalMapSize>	256	</normalMapSize>
 	</terrain>

@@ -1,3 +1,5 @@
+import os
+
 from renderer_data.utils import LOGGER
 
 from renderer_data import (
@@ -14,6 +16,7 @@ from renderer_data import (
 
 
 if __name__ == "__main__":
+    os.makedirs(os.path.join(os.getcwd(), "generated"), exist_ok=True)
     create_ships_data()
     create_planes_data()
     create_projectiles_data()

@@ -1,0 +1,18 @@
+<root>
+	<ClientMethods>
+		<startSyncDelay/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<ofEntity>
+		<Account/>
+	</ofEntity>
+
+	<ofBWComponent>
+		<base/>
+		<bot/>
+		<client/>
+	</ofBWComponent>
+</root>
