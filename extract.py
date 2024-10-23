@@ -49,10 +49,18 @@ def main(bin_num):
     print("Extraction complete.")
 
 
+def is_number(bd: str):
+    try:
+        int(bd)
+        return True
+    except ValueError:
+        return False
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extracts game resources.")
     parser.add_argument("--bin",
-                        default=max(os.listdir("bin/")),
+                        default=max([bd for bd in os.listdir("bin/") if is_number(bd)]),
                         help="The game version to use.")
     args = parser.parse_args()
 
